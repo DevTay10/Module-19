@@ -1,0 +1,292 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+    
+    font-family: "Roboto", sans-serif;
+    margin: 0 2.5%;
+    background-color: rgba(218, 248, 132, 0.10);
+}
+
+
+.Header{
+    
+    padding: 4%;
+    text-align: left;
+    border-bottom: 1px #1A1A1A dashed;
+    position: sticky;
+    padding-bottom: 10%;
+    
+}
+
+
+.Header H2{
+    
+    text-align: left;
+    
+}
+
+
+.Header img{
+    
+    float: right;
+
+    
+}
+
+
+#Hero{
+    
+    float: left;
+    
+}
+
+
+.topNav {    
+
+    display: block flex;
+    background-image: linear-gradient(180deg, rgba(218, 248, 132, 0.36) 0%, rgba(160, 255, 193, 0.36) 106.02%);
+    border-bottom: 1px;
+    border-color: #1A1A1A;
+
+    
+}
+
+
+.topNav a{
+    
+    text-align: left;
+    color: #1A1A1A;
+    padding: 1% 2%;
+    display: block;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.5s ease;
+    
+}
+
+
+.topNav a:hover{
+    
+    color: #1A1A1A;
+    text-decoration: underline;
+    background-color: rgba(30, 30, 30, 0.27);
+    
+}
+
+
+.Main{
+    
+    background-image: linear-gradient(0deg, rgba(218, 248, 132, 0.36) 0%, rgba(160, 255, 193, 0.36) 106.02%);
+}
+
+
+.leftSide{
+    
+    border: 1% #B0B0B0 solid;
+    float: left;
+    width: 74%;
+    border-right: 1% #B0B0B0 solid;
+    
+}
+
+
+.Box{
+
+    padding: 2%;
+    
+}
+
+
+.leftSide Box{
+    
+    border-right: 1% #B0B0B0 solid;
+    display: flex;
+    
+}
+
+
+.skillsBox {    
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    
+}
+
+
+.skillsBox > div {
+    
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.skillsBox > div:hover, .skillsBox > div:active {
+    
+    background-image: linear-gradient(180deg, #9E0000 0%, rgba(158, 0, 0, 0.00) 50%);
+    
+}
+
+
+.skillsBox > div:active {
+    
+    background-image: linear-gradient(0deg, #9E0000 0%, rgba(158, 0, 0, 0.00) 50%);
+    
+}
+
+
+.rightSide{
+    
+    width: 24%;
+    float: right;
+    
+}
+
+
+.miniBox{
+    
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+    
+}
+
+
+.Item1, .Item2, .Item3{
+    
+    padding-bottom: 1%;
+    
+}
+
+
+.miniBox a{
+    
+    color: #1A1A1A;
+    display: flex;
+    padding: 1%;
+    
+}
+
+
+.rightSide Box{
+    
+    float: left;
+}
+
+
+.Main:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+    
+}  
+
+
+P1{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 1.25em;
+    color: #1A1A1A;
+    
+}
+
+
+P2{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    color: #1A1A1A;
+    
+}
+
+
+P3{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: .75em;
+    color: #1A1A1A;
+    
+}
+
+
+H1{
+    
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: #9E0000;
+    
+}
+
+
+H2 {
+    
+    font-family: serif;
+    font-size: 1.5em;
+    color: #1A1A1A;
+    
+}
+
+
+.Footer {
+    
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100%;
+    background-color: #B0B0B0;
+    padding-top: 2%;
+    
+}
+
+
+.footerItem1, .footerItem2, .footerItem3{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    
+}
+
+
+@media only screen and (max-width: 600)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
