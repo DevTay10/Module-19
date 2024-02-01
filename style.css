@@ -48,7 +48,7 @@ body{
 .topNav {    
 
     display: block flex;
-    border-bottom: 1px;
+    border-bottom: 1%;
     border-color: #1A1A1A;
 
     
@@ -81,15 +81,14 @@ body{
 
 .Main{
     
+    
 }
 
 
 .leftSide{
     
-    border: 1% #B0B0B0 solid;
     float: left;
     width: 74%;
-    border-right: 1% #B0B0B0 solid;
     
 }
 
@@ -103,7 +102,6 @@ body{
 
 .leftSide Box{
     
-    border-right: 1% #B0B0B0 solid;
     display: flex;
     
 }
@@ -151,7 +149,7 @@ body{
     
     display: grid;
     grid-template-rows: auto auto auto;
-    padding: 10px;
+    padding: 2%;
     
 }
 
