@@ -16,7 +16,7 @@ body{
     
     padding: 4%;
     text-align: left;
-    border-bottom: 1px #1A1A1A dashed;
+    border-bottom: 0.0125em #1A1A1A dashed;
     position: sticky;
     padding-bottom: 10%;
     
@@ -48,7 +48,7 @@ body{
 .topNav {    
 
     display: block flex;
-    border-bottom: 1%;
+    border-bottom: 0.25em;
     border-color: #1A1A1A;
 
     
@@ -89,14 +89,14 @@ body{
     
     float: left;
     width: 74%;
-    
+    border-right: 0.25em solid #B0B0B0
 }
 
 
 .Box{
 
     padding: 2%;
-    
+        
 }
 
 
