@@ -48,7 +48,6 @@ body{
 .topNav {    
 
     display: block flex;
-    background-image: linear-gradient(180deg, rgba(218, 248, 132, 0.36) 0%, rgba(160, 255, 193, 0.36) 106.02%);
     border-bottom: 1px;
     border-color: #1A1A1A;
 
@@ -82,7 +81,6 @@ body{
 
 .Main{
     
-    background-image: linear-gradient(0deg, rgba(218, 248, 132, 0.36) 0%, rgba(160, 255, 193, 0.36) 106.02%);
 }
 
 
@@ -246,10 +244,12 @@ H2 {
 .Footer {
     
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
-    background-color: #B0B0B0;
+    background-color: rgb(176, 176, 176, 0.6);
     padding-top: 2%;
+    align-items: center;
+    align-content: center;
     
 }
 
